@@ -21,3 +21,8 @@ For compatibility, we will not make any API changes or non-bug behavior changes 
 ```
 python -m build --sdist ./PythonAPI
 ```
+
+## to build a wheel
+```
+python -m build --wheel ./PythonAPI
+```

@@ -17,3 +17,4 @@ PythonAPI/pycocotools/mask.pyc
 
 dist/
 *.egg-info
+build/

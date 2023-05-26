@@ -17,9 +17,9 @@ ext_modules = [
     ]
 
 setup(
-    name='pycocotools',
+    name='pycocotools_og',
     description='Official APIs for the MS-COCO dataset',
-    url="https://github.com/ppwwyyxx/cocoapi",
+    url="https://github.com/sr99622/cocoapi",
     license="FreeBSD",
     packages=['pycocotools'],
     package_dir={'pycocotools': 'pycocotools'},
