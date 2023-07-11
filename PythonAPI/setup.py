@@ -17,16 +17,16 @@ ext_modules = [
     ]
 
 setup(
-    name='pycocotools_og',
+    name='pycocotools',
     description='Official APIs for the MS-COCO dataset',
-    url="https://github.com/sr99622/cocoapi",
+    url="https://github.com/JonathanCMitchell/cocoapi",
     license="FreeBSD",
     packages=['pycocotools'],
     package_dir={'pycocotools': 'pycocotools'},
     python_requires='>=3.5',
     install_requires=[
         'matplotlib>=2.1.0',
-        'numpy',
+        'numpy==1.19.4',
     ],
     version='2.0.6',
     ext_modules=ext_modules
